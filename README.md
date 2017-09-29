@@ -16,11 +16,13 @@ The NCSU Libraries' [D. H. Hill Library Makerspace](https://www.lib.ncsu.edu/do/
 
 ## Hardware
 
-*this section will contain a full BOM*
+*This section will contain a full BOM*
 
 ## Software
 
-*This section will contain a full list of software*
+- [Octopi](https://octopi.octoprint.org/)
+- [Octoprint-TouchUI](https://github.com/BillyBlaze/OctoPrint-TouchUI)
+- [Scrollbar Anywhere](https://chrome.google.com/webstore/detail/scrollbar-anywhere/namcaplenodjnggbfkbopdbfngponici?hl=en)
 
 ## Implementation Notes
 *This section will contain a full set of implementation directions*
