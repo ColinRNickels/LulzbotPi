@@ -44,6 +44,7 @@ iface wlan0 inet dhcp
 	wireless-mode managed
 ```
  *use managed if you are authenticated via mac address, if you have some other network configuration see [this tutorial](http://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/)
+ 
 10. Press control + x to exit. Press y to save changes
 11. Type sudo reboot - and then wait for it to restart
 12. Wait for device to boot, it should give you a set of ip addresses (ex. 10.139.180.100) to go to on your computer on the NCSU network. Go to one of them
@@ -52,15 +53,20 @@ iface wlan0 inet dhcp
 15. Then follow the directions here: https://github.com/BillyBlaze/OctoPrint-TouchUI/wiki/Setup:-Boot-to-Browser-(OctoPi-or-Jessie-Light)
 16. Reboot device - it should boot directly to touchui now.
 
-###Setting up scrolling
+### Setting up scrolling
 *This section yet to come*
-###Setting up the screen
+
+### Setting up the screen
 *This section yet to come*
-###Setting up the keyboard
+
+### Setting up the keyboard
 *This section yet to come*
-###Setting up USB automount
+
+### Setting up USB automount
 *This section yet to come*
-###Saving an image
+
+### Saving an image
 *This section yet to come*
-###Connecting the Hardware
+
+### Connecting the Hardware
 *This section yet to come*
