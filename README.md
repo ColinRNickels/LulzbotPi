@@ -65,7 +65,7 @@ iface wlan0 inet dhcp
 9. Reboot
 
 ### Setting up the screen
-Follow the directions (here)[https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config] to force the correct resolution
+Follow the directions [here](https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config) to force the correct resolution
 
 ### Setting up the keyboard
 1. press ctrl + alt + F3 to get a terminal window.
