@@ -69,14 +69,17 @@ Follow the directions (here)[https://learn.adafruit.com/adafruit-5-800x480-tft-h
 
 ### Setting up the keyboard
 1. press ctrl + alt + F3 to get a terminal window.
-2. run sudo raspi-config
+2. run ```sudo raspi-config```
 3. Select 4. Internationalisation options
 4. Select Change Keyboard Layout
 5. Select the appropriate layout (we chose US)
 
 ### Setting up USB automount
 *This section in progress*
-sudo apt-get install usbmount 
+1. press ctrl + alt + F3 to get a terminal window.
+2. Enter ```sudo apt-get install usbmount ```
+3. Enter ```sudo nano /etc/usbmount/usbmount.conf```
+4. Change the default mount directory from _________ to ________
 
 ### Saving an image
 *This section yet to come*
