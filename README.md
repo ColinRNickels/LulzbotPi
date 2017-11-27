@@ -54,19 +54,29 @@ iface wlan0 inet dhcp
 16. Reboot device - it should boot directly to touchui now.
 
 ### Setting up scrolling
-*This section yet to come*
+1. Ensure you're connected to the internet
+2. Press Ctrl + alt + f3 to get to a terminal window
+3. Enter the command ```sudo nano _____________ chromium.xinit``` 
+4. Comment out kiosk mode in the start up options for chromium
+5. Reboot
+6. In Chromium, go to extensions
+7. Install scroll anywhere extension
+8. Repeat steps 2 - 4 this time restoring kiosk mode.
+9. Reboot
 
 ### Setting up the screen
-*This section yet to come*
+Follow the directions (here)[https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config] to force the correct resolution
 
 ### Setting up the keyboard
-*This section yet to come*
+1. press ctrl + alt + F3 to get a terminal window.
+2. run sudo raspi-config
+3. Select 4. Internationalisation options
+4. Select Change Keyboard Layout
+5. Select the appropriate layout (we chose US)
 
 ### Setting up USB automount
-*This section yet to come*
+*This section in progress*
+sudo apt-get install usbmount 
 
 ### Saving an image
-*This section yet to come*
-
-### Connecting the Hardware
 *This section yet to come*
